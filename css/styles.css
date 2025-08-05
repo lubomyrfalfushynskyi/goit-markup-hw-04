@@ -55,23 +55,6 @@ body {
     /**lesson 3 styles**/
     display: flex;
     align-items: center;
-
-    /**lesson 4 styles**/
-    position:relative;
-    color: #404bbf
-}
-
-.header-nav-style::after{
-    
-    /**lesson 4 styles**/
-    content:'';
-    width:100%;
-    position: absolute;
-    left:0;
-    bottom: -1px;
-    height: 4px;
-    background-color: #404bbf;
-    border-radius: 2px;
 }
 
 .menu-list-style{
@@ -122,7 +105,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+/**    color: #2e2f42;  **/
 
     /**lesson 3 styles**/
     padding: 24px 0 24px;
@@ -130,8 +113,23 @@ body {
     /**lesson 3 fix**/
     display: block;
 
-    /**lesson 4 styles**/
+/**lesson 4 styles**/
+    position:relative;
+    color: #404bbf
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-list-item::after{
+    
+    /**lesson 4 styles**/
+    content:'';
+    width:100%;
+    position: absolute;
+    left:0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
 }
 
 .nav-list-item:hover{
