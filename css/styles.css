@@ -31,6 +31,9 @@ body {
 
     /**lesson 3 styles**/
     border-bottom: 1px solid #e7e9fc;
+
+    /**lesson 4 styles**/
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-division-style {
@@ -52,6 +55,23 @@ body {
     /**lesson 3 styles**/
     display: flex;
     align-items: center;
+
+    /**lesson 4 styles**/
+    position:relative;
+    color: #404bbf
+}
+
+.header-nav-style::after{
+    
+    /**lesson 4 styles**/
+    content:'';
+    width:100%;
+    position: absolute;
+    left:0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
 }
 
 .menu-list-style{
@@ -109,6 +129,9 @@ body {
 
     /**lesson 3 fix**/
     display: block;
+
+    /**lesson 4 styles**/
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-list-item:hover{
@@ -131,6 +154,9 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+
+    /**lesson 4 styles**/
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .adress-element:hover{
@@ -147,6 +173,13 @@ body {
     /**lesson 3 styles**/
     padding-top:188px;
     padding-bottom: 188px;
+
+    /**lesson 4 styles**/
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .main-header{
@@ -188,6 +221,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 48px;
+
+    /**lesson 4 styles**/    
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .section-button:hover{
