@@ -384,7 +384,7 @@ body {
     background-color: #404bbf;
 }
 
-.social-item-link:focus{
+.link-a:focus{
 
     /** lesson 4 style**/
     background-color: #404bbf;
@@ -528,6 +528,6 @@ img {
     background-color: #31d0aa;
 }
 
-.footer .social-item-link:focus{
+.link-b:focus{
     background-color: #31d0aa;
 }
