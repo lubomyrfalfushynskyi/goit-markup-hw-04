@@ -420,6 +420,7 @@ body {
 
     /**lesson 4 styles**/
     box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateY(0%);
 }
 
 .section-four-item-style:hover{
@@ -431,6 +432,8 @@ body {
 }
 
 .section-four-pic-division{
+    
+    /**leson 4 styles**/
     position: relative;
     overflow: hidden; 
 }
@@ -445,6 +448,8 @@ body {
 }
 
 .section-four-explanation{
+    
+    /**leson 4 styles**/
     position: absolute;
     top: 0;
     font-size: 16px;
@@ -457,7 +462,7 @@ body {
     width: 100%;
     transform: translateY(100%);
     transform: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+
 }
 
 .footer{
