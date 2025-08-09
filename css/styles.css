@@ -508,13 +508,14 @@ img {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.2em;
+    letter-spacing:0.02em;
     color: #ffffff;
     margin-bottom: 16px;
 }
 
 .footer-social-item-list{
     gap:16px;
+    display: flex;
 }
 
 .footer .social-item-link:hover, .footer .social-item-link:focus{
