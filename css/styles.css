@@ -378,13 +378,7 @@ body {
     transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-item-link:hover{ 
-
-    /** lesson 4 style**/
-    background-color: #404bbf;
-}
-
-.link-a:focus{
+.social-item-link:hover, .social-item-link:focus, .social-item-link:active{ 
 
     /** lesson 4 style**/
     background-color: #404bbf;
@@ -524,10 +518,7 @@ img {
     display: flex;
 }
 
-.footer .social-item-link:hover{
+.footer .social-item-link:hover, .footer .social-item-link:focus, .footer .social-item-link:active{
     background-color: #31d0aa;
 }
 
-.link-b:focus{
-    background-color: #31d0aa;
-}
