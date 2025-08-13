@@ -124,7 +124,7 @@ body {
 }
 
 
-.nav-list-item.current::before{
+.nav-list-item.current::after{
     
     /**lesson 4 styles**/
     content:'';
